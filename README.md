@@ -17,5 +17,5 @@ Testing?
 Before we begin building the models, we should consider how we measure how well our neural networks classify emotions, such as accuracy or mean squared error etc. 
 
 ## Team divisions:
-Where da dog at: Max and Mathilde
-What da dog feelin': Anna, Jonty, Bobby
+- Where da dog at: Max and Mathilde
+- What da dog feelin': Anna, Jonty, Bobby
