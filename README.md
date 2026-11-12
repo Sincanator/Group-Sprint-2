@@ -1,5 +1,5 @@
 # Group-Sprint-2
-Group Sprint 2 - Dog datasets
+Group Sprint 2 - neural networks on dog datasets
 
 ## 2 models for 2 groups: 
 1) Find a dog within a photo containing other components, such as people or cats or objects
@@ -12,3 +12,10 @@ Group Sprint 2 - Dog datasets
 Limitation - we originally wanted to see how well an emotion classifier could classify specific breeds of dog i.e. how good is the classifier at predicting an emotion given a breed and how accurate is my classifier on dog breeds given an emotion. However, we cannot find a dataset that has both emotions and breeds labelled. 
 
 Testing?
+
+## Prerequisite
+Before we begin building the models, we should consider how we measure how well our neural networks classify emotions, such as accuracy or mean squared error etc. 
+
+## Team divisions:
+Where da dog at: Max and Mathilde
+What da dog feelin': Anna, Jonty, Bobby
