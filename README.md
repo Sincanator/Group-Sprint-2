@@ -14,7 +14,7 @@ Limitation - we originally wanted to see how well an emotion classifier could cl
 Testing?
 
 ## Prerequisite
-Before we begin building the models, we should consider how we measure how well our neural networks classify emotions, such as accuracy or mean squared error etc. 
+Before we begin building the models, we should consider how we measure how well our neural networks classify emotions, such as accuracy or mean squared error etc. Instead of looking at error like we did in the classification sprint where we had true testing data to compare predictions to, here we can look at training loss and accuracy using ROC and in our testing phase looking at the uncertainty of classification: how confidently the model labels the images.  
 
 ## Team divisions:
 - Where da dog at: Max and Mathilde
