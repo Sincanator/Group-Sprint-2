@@ -20,4 +20,6 @@ Epochs = 6, Accuracy = 0.87
 
 Epochs = 7, Accuracy = 0.87
 
-Epochs = 8, Accuracy = 
+Epochs = 8, Accuracy = 0.87
+
+Epochs = 9, Accuracy = 
