@@ -14,6 +14,6 @@ I will display the number of epochs used below, with their corresponding accurac
 
 Epochs = 4, Accuracy = 0.90
 
-Epochs = 5, Accuracy = 
+Epochs = 5, Accuracy = 0.87
 
 Epochs = 6, Accuracy =
