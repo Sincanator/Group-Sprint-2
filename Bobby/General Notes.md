@@ -12,14 +12,18 @@ Research for finding optimal number of epochs in google collab code:
 
 I will display the number of epochs used below, with their corresponding accuracy attached with it. These different tests are all run using the same updated learning which is 4e-4.
 
-Epochs = 4, Accuracy = 0.90
+Epochs = 4, Accuracy = 0.86 (2nd Run)
 
-Epochs = 5, Accuracy = 0.87
+Epochs = 5, Accuracy = 0.87 (3rd Run)
 
-Epochs = 6, Accuracy = 0.87
+Epochs = 6, Accuracy = 0.87 (4th Run)
 
-Epochs = 7, Accuracy = 0.87
+Epochs = 7, Accuracy = 0.87 (5th Run)
 
-Epochs = 8, Accuracy = 0.87
+Epochs = 8, Accuracy = 0.87 (6th Run)
 
-Epochs = 9, Accuracy = 0.87
+Epochs = 9, Accuracy = 0.87 (7th Run)
+
+Epochs = 20, Accuracy = 0.88 (8th Run)
+
+Epochs = 30, Accuracy = 0.90 (9th Run)
