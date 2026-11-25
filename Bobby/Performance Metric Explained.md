@@ -1,1 +1,1 @@
-write formal explanation here
+We found a few different models to test so
