@@ -6,7 +6,7 @@ In introduction it suggests 2 methods for identifying facial expressions: a stat
 
 My specific model's performance so far:
 
-My model was 'densenet121' which has 121 layers. Using the initial unchanged model (4 epochs and 1e-2 learning rate), we get an accuracy of 0.87. But when we changed the learning rate to 4e-4 we get an accuracy of 0.90.
+My model was 'densenet121' which has 121 layers. Using the initial unchanged model (4 epochs and 1e-2 learning rate), we get an accuracy of 0.87. But when we changed the learning rate to 4e-4 we get an accuracy of 0.86.
 
 Research for finding optimal number of epochs in google collab code:
 
