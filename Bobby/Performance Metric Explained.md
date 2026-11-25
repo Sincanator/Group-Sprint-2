@@ -7,5 +7,3 @@ Initially we discussed the idea of using a simple metric which was just overall 
 We also discussed using specificity and sensitivity as a metric, with the aim being to minimise the false positives and false negatives. But we talked about how there is a subjective nature around which one of these is worse if it were to occur.
 
 After further research and discussion we settled on using the F1 score as our metric. We decided that this would be suitable because...
-
-Copied from notes: 
