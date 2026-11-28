@@ -1,0 +1,32 @@
+# Dog Emotions Dataset
+
+Dataset and initial analysis
+
+Purpose: Show that you understood the data before choosing the model.
+
+# Dog Emotion Dataset
+
+Before choosing an application domain for our project we decided to research possible datasets which would be used to apply a neural network to answer a real world classification question. We decided on the Kaggle dataset Dog emotions (found here: https://www.kaggle.com/datasets/danielshanbalico/dog-emotion?resource=download). This is a public dataset created by Daniel Shan Balico which is used to train Neural Network models to identify dog emotions from images. In fact, when researching possible applications of this we found that this dataset is widely used for dog emotion recognition using different deep learning techniques. For example the article `\Anna Del Pino > Different techniques for dog emotion.pdf` contains research on different machine learning algorithms used for this classification question and aims to aggregate the different models to improve prediction.
+This dataset contains labelled images of dogs feeling happy, sad, angry and relaxed. The dataset contains 1000 images for each emotion so overall we have 4000 labelled images of dogs to train and test our model. Furhtermore, the images are saved in different folders of which are labelled with the emotion correspoinding to the image. This will then be useful when preparing out train and test split.
+
+## Train/test split
+We decided to split the data to use 90% of this full set as our training set and the rest 10% as our test set. This would leave us with 3600 training images and 400 test images. Meaning that for training we're left with 900 images per class and for testing we have 100 images per class. 
+
+The training and test split code can be found in `\jonty_heffran > \Scripts > data_split_creation`. Here the dataset is split into training and test set and keeping the same split of images found in each class for each set (ie. 900 of train and 100 for test).
+This code downloads the Kaggle dataset directly into the notebook using the `kagglehub` library. This dataset is then split by using `sklearn` library, which tells us that it's keeping the same proportion of emotion images for both splits by finding the label of the image by taking it from the image's folder name.
+Finally, the code creates a dataframe containing the image file name (which acts as a key for that specific image) and the emotion corresponding to that image and saves this as a .csv file which can be found in `\Data > emotion_classifier_data_from_kaggle`. We do this for both the training and test sets as this will then be useful for training the model with the correct labels of the images and to keep track of the images without copying them which would increase the runtime (WHYYYY ANSWER THIS PLEASE).
+
+## Data transformations for learning
+
+
+
+
+
+
+
+The model notebook uses 3,600 images. Its stratified split creates 3,060 development images and 540 test images. The test set contains 135 images per class. A further 20% of the development set is used for validation, so the training run uses approximately 2,448 training images and 612 validation images. Describe these as the notebook’s split settings, and verify the exact counts against the run you report.
+Discuss:
+•	Labels and balance: Four categories, with equal test support in the reported classification results. Balance makes overall accuracy more interpretable than it would be with a dominant class, though per-class metrics still matter.
+•	What to inspect or show: a grid of examples, image dimensions and aspect ratios, image quality, variation in pose/background/lighting, and any visible ambiguity or label noise.
+•	Dataset limitations: labels may be subjective; images may contain cues such as background or pose; and performance on these images may not generalise to different breeds, cameras or settings.
+The data split script and notebook support these settings: data_split_creation.py and emotion_model_choice_script.ipynb.

@@ -1,0 +1,24 @@
+# Models
+
+To decide on a model for dog emotion detection we researched example code on pretrained models used for model detection. We did this through looking at the public notebooks which apply Neural Networks to the Kaggle Dog Emotions dataset. We decided to test a range of model sizes but we decided on which models to use depending on what these do i.e. image recognition. We tested the following models and compared them using accuracy as our performance metric:
+* Alexnet (NUMBER OF LAYERS)
+* Resnet18
+* Squeezenet1_1
+* Densenet121
+We trained these models using a similar training set up by using premade functions from the `fastAI` library and only changing the learning rate of the fine tuning. We used the same data transformations and train/validation/test splits which are further explained on the data section.
+
+## Comparison of performance
+
+BOBBY
+
+## Densenet121
+
+As we can see that Densenet121 had highest accuracy amongst our models, we will further explain this model in this subsection. 
+As a reference of research we used [Densely Connected Convolutional Networks] which I an article explaining how Densenet was build and its different versions. 
+
+Densenet121 is the smallest of the densenet models and it has 121 layers.
+
+
+
+
+
