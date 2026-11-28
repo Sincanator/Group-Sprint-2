@@ -1,0 +1,21 @@
+learn.fine_tune(4, base_lr=1e-2) # finetune is built in to tune pretrained models, it uses adaptive lr. for 4 epochs trains class head, then whole model for 1 epoch
+learn.recorder.plot_loss()
+plt.title("Stage 1: fine_tune(4, base_lr=1e-2)")
+plt.show()
+
+learn.unfreeze()
+
+learn.fit_one_cycle(4, lr_max=1e-4)
+learn.recorder.plot_loss()
+plt.title("Stage 2: fit_one_cycle(4, lr_max=1e-4)")
+plt.show()
+
+learn.fit_one_cycle(2, lr_max=1e-5)
+learn.recorder.plot_loss()
+plt.title("Stage 3: fit_one_cycle(2, lr_max=1e-5)")
+plt.show()
+
+#learn.fit_one_cycle(1, lr_max=1e-7)
+#learn.recorder.plot_loss()
+#plt.title("Stage 4: fit_one_cycle(1, lr_max=1e-6)")
+#plt.show()
